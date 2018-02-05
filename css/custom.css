@@ -1,0 +1,121 @@
+h3{
+    color: white;
+}
+.top-bar{
+    height:5px;
+    background: #577B8C;
+    margin-bottom: 1px;
+}
+.navbar{
+    margin-bottom: 1px;
+}
+.navbar li:hover{
+    background:#e6e6e6;
+
+}
+
+.jumbotron{
+    background: url("../images/waterdrop.jpg") no-repeat 50% 0;
+    height: 350px;
+    padding:0;
+}
+
+.jumbotron [class*="col-"]{
+    padding-top:15px;
+    padding-botton:15px;
+    /*background-color: #eee;
+    border: 1px solid #ddd;*/
+    background-color: rgba(86, 61, 124, .15);
+    border: 1px solid rgba(86, 61, 124, .2);
+    overflow: hidden;
+    height: 350px;
+}
+
+.jumbotron-content{
+    color: #ffffff;
+}
+.jumbotron h1{
+    font-size: 34px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+.lightblue-box{
+    color: white;
+    background-color: #577B8C;
+    padding: 5px 10px;
+}
+.lightblue-box a{
+    color: #B6C3CF;
+}
+.darkblue-box{
+    color: white;
+    background-color: #082530;
+    padding: 5px 10px;
+
+}
+.darkblue-box a{
+    color: #B6C3CF;
+}
+
+.pad-top-30{
+    padding-top: 30px;
+}
+.pad-bot-30{
+    padding-bottom: 30px;
+}
+
+.box-shadow{
+    box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;"
+}
+.media-left img{
+    height: 150px;
+    width: 150px;
+}
+
+.panel-default > .panel-heading{
+    color: white;
+    background-color: #577B8C;
+}
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus{
+    color: white;
+    background-color: #082530;
+}
+
+.well{
+    color: darkgray;
+    background-color: white;
+}
+.well h1,.well h2, .well h3{
+    color: darkgray;
+}
+
+#blog img{
+    width: 100%;
+    margin: 5px 0 15px 0;
+    border: 1px #cccccc solid;
+    padding: 3px;
+    border-radius: 5px;
+}
+blog a.readmore{
+    background: #2b8cbc;
+    padding: 10px 15px;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    margin-top: 20px !important;
+    border-radius: 5px;
+}
+
+blog a.readmore:hover{
+    background: #20749d;
+}
+small{
+    padding: 5px;
+    background: #f4f4f4;
+    border: #dddddd solid 1px;
+    border-radius: 10px;
+    width: 100%;
+    display: block;
+    margin: 5px 0 10px 0;
+}
