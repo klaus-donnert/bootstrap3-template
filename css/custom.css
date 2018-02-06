@@ -83,11 +83,11 @@ h3{
 }
 
 .well{
-    color: darkgray;
+    color: #111111;
     background-color: white;
 }
 .well h1,.well h2, .well h3{
-    color: darkgray;
+    color: #111111;
 }
 
 #blog img{
@@ -118,4 +118,14 @@ small{
     width: 100%;
     display: block;
     margin: 5px 0 10px 0;
+}
+iframe.gmap{
+    width: 100%;
+    border: #cccccc 1px solid;
+    border-radius: 10px;
+    padding: 4px;
+
+}
+.greywell{
+    background: #f4f4f4;
 }
