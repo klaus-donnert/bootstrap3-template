@@ -75,15 +75,40 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
                 <h4 class="modal-title" id="login-modal-label">Login</h4>
             </div>
             <div class="modal-body">
-                login form goes here!
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> Remember me
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-default">Sign in</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
@@ -94,16 +119,45 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
                 <h4 class="modal-title" id="registration-modal-label">Register</h4>
             </div>
             <div class="modal-body">
-                registration form goes here!
+                <div class="modal-body">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">Name</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="inputEmail3" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="inputPassword3" placeholder="Confirm Password">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-default">Register</button>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
+
         </div>
     </div>
 </div>
@@ -168,7 +222,8 @@
                     <div class="media">
                         <div class="media-left">
                             <a href="#">
-                                <img class="media-object img-rounded" src="images/palette.jpg" alt="Small generic image">
+                                <img class="media-object img-rounded" src="images/palette.jpg"
+                                     alt="Small generic image">
                             </a>
                         </div>
                         <div class="media-body">
@@ -177,9 +232,11 @@
                                 use. Give it a try.
                                 Then we used that palette in custom.css after our already customized bootstrap.css.
                                 We also used lots of dummy text - in case you haven't already noticed.
-                                As an aside, did you know that the whole point of using Lorem Ipsum is to show you normal
+                                As an aside, did you know that the whole point of using Lorem Ipsum is to show you
+                                normal
                                 looking text with normal distribution, without distracting you into reading the pseudo
-                                content so that you can pay attention to the layout instead. I just thought it was interesting.
+                                content so that you can pay attention to the layout instead. I just thought it was
+                                interesting.
                             </p>
                         </div>
                     </div>
@@ -191,7 +248,8 @@
                         </div>
                         <div class="media-body">
                             <h4 class="media-heading">Other Thoughts</h4>
-                            <p>Some of the links and buttons, and all of the forms, on these pages do not work. That is intentional.
+                            <p>Some of the links and buttons, and all of the forms, on these pages do not work. That is
+                                intentional.
                                 This is a just an exercise using Bootstrap 3. Nothing more. Lorem ipsum dolor sit amet,
                                 consectetur adipisicing elit. A amet assumenda atque dolorum
                                 ea explicabo fugit inventore laudantium, magni officia placeat, quae repellendus
@@ -246,15 +304,18 @@
             <div class="list-group">
                 <a href="#" class="list-group-item">
                     <h4 class="list-group-item-heading">List group item heading</h4>
-                    <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet assumenda atque </p>
+                    <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet
+                        assumenda atque </p>
                 </a>
                 <a href="#" class="list-group-item">
                     <h4 class="list-group-item-heading">Another item heading</h4>
-                    <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet assumenda atque </p>
+                    <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet
+                        assumenda atque </p>
                 </a>
                 <a href="#" class="list-group-item">
                     <h4 class="list-group-item-heading">A third item heading</h4>
-                    <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet assumenda atque </p>
+                    <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet
+                        assumenda atque </p>
                 </a>
             </div>
         </div>
@@ -262,7 +323,6 @@
 </div>
 
 <footer class="text-center pad-top-30 pad-bot-30">Copyright &copy; 2017 Klaus Donnert</footer>
-
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
